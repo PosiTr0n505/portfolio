@@ -3505,6 +3505,30 @@ textarea.form-control-lg {
   }
 }
 
+.language-toggle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+.btn-lang {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.btn-lang:hover {
+  background-color: #f0f0f0;
+}
+
+
 .dropup,
 .dropend,
 .dropdown,
