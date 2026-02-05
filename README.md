@@ -7,8 +7,6 @@ Welcome to my personal portfolio website! This is where I showcase my projects, 
 
 ## 🛠️ Technologies Used
 - **HTML, CSS, JavaScript** - Core web technologies
-- **Bootstrap** - For responsive design
-- **FontAwesome** - Icons and UI elements
 - **AWS S3** - Hosting as a static website
 - **AWS Route 53** - DNS management for a custom domain
 - **GitHub** - Version control and repository management
