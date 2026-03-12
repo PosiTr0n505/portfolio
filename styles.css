@@ -124,6 +124,60 @@
   transform: scale(1.05);
 }
 
+
+.about-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+/* Cat Image Styling */
+.cat-container {
+    max-width: 300px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.cat-img {
+    border-radius: 15px;
+    border: 3px solid var(--bs-primary);
+    transform: rotate(2deg); /* Adds a little character */
+    transition: transform 0.3s ease;
+}
+
+.cat-img:hover {
+    transform: rotate(0deg) scale(1.05);
+}
+
+/* Caption and Arrow */
+.cat-caption {
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 700;
+    color: var(--bs-primary);
+    line-height: 1;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid var(--bs-primary);
+    margin: 5px auto 0;
+}
+
+/* Responsive adjustment for mobile */
+@media (max-width: 768px) {
+    .cat-container {
+        margin: 20px auto;
+        order: -1; /* Puts cat above name on small screens */
+    }
+    .about-text {
+        text-align: center;
+        width: 100%;
+    }
+}
+
 .project-img {
   width: 100%;
   height: 200px; /* Ensures all images are the same height */
